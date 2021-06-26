@@ -1,0 +1,64 @@
+body{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 15px;
+}
+div#c1{
+    background-color: beige;
+    margin: 0;
+}
+div#c1 div.inner{
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+}
+div#c1 div.inner div#c1-1{
+    height: 360px;
+    background-color: white;
+    border-top: 4px solid #b89a53;
+}
+div#c1-1 table{
+    height: 320px;
+    width: 500px;
+    float: left;
+    border-spacing: 40px;
+}
+div#c1-1 div#c1-1-1{
+    height: 260px;
+    width: 300px;
+    float:left;
+    margin: 40px 30px 20px 30px;
+    padding: 20px 10px;
+}
+div#c1-1 div#c1-1-1 p{
+    line-height: 20px;
+}
+div#c1-1 div#c1-1-1 p span{
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+div#c1 div.inner div#c1-2{
+    height: 360px;
+    background-color: white;
+    border-top: 4px solid #b89a53;
+}
+div#c1-2 div#c1-2l{
+    width: 300px;
+    height: 260px;
+    margin: 40px 50px 40px 70px;
+    float: left;
+}
+div#c1-2 div#c1-2r{
+    width: 350px;
+    height: 260px;
+    float:left;
+    margin: 30px 10px 10px 30px;
+    padding: 20px 10px;
+}
+div#c1-2 div#c1-2r p {
+    line-height: 20px;
+}
+div#c1-2 div#c1-2r p span{
+    font-size: 1.2em;
+    font-weight: bold;
+}

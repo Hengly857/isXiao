@@ -1,0 +1,152 @@
+body{
+    margin: 0;
+    font-size: 1em;
+}
+div.cont1{
+    background-color:#e8e0cd;
+    height: 160px;
+    width: auto;
+    margin: 0;
+}
+div.cont1 header{
+    height: 100px;
+    width: 100%;
+    text-align: center;
+}
+div.cont1 header div#p1{
+    height: 50px;
+    width: 100%;
+    margin-top: 20px;
+}
+div.cont1 header span{
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 28px;
+    position:relative;
+    top:30px
+}
+div.cont1 nav{
+    height: 60px;
+    width: 100%;
+    margin: 0;
+}
+div.d1{
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+}
+nav ul{
+    list-style: none;
+    margin: 0;
+
+}
+nav ul li{
+    display: inline;
+    padding: 5px 20px;
+    text-align: center;
+}
+nav ul li a{
+    text-decoration: none;
+    font-size: 18px;
+    color: white;
+}
+nav ul li a:hover {
+    color:salmon;
+}
+footer{
+    height: 45px;
+    background-color: #675c47;
+    color: #efe5d0;
+    border-top: 2px solid #b89a53;
+    font-size: 0.8em;
+    line-height: 20px;
+    text-align: center;
+}
+footer span{
+   position: relative;
+   top: 10px;
+}
+/*以上为重复部分*/
+
+div#cont2{
+    background-color: beige;
+    width: 100%;
+}
+div.inner{
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+}
+div#cont2 div.inner div#cont21{
+    height: 250px;
+    width: 100%;
+    background-color: #6495ED;
+}
+
+div#cont3{
+    background-color: beige;
+    width: 100%;
+    margin: 0;
+}
+div#cont3 div.inner div#cont31{
+    height: 320px;
+    width: 100%;
+    background-color: white;
+    border-top: 4px solid #b89a53;
+}
+div#cont3 div.inner div#cont31 div#cont31-l{
+    margin: 20px 80px;
+    height: 280px;
+    width: 200px;/* 240*/
+    float: left;
+}
+div#cont31-r{
+    margin: 20px 40px;
+    padding: 10px 10px;
+    height: 260px;
+    width: 400px;
+    font-size: 0.9em;
+    font-family:'Times New Roman', Times, serif;
+    float: left;
+    line-height: 20px;
+    text-align: left;
+}
+div#cont31 div#cont31-r span{
+    font-size: 1.4em;
+    font-weight: bold;
+}
+div#cont3 div.inner div#cont32{
+    height: 320px;
+    width: 100%;
+    border-top: 4px solid #b89a53;
+    background-color: white;
+}
+div#cont32 div#cont32-l{
+    height: 260px;
+    width: 400px;
+    padding: 40px 40px 20px 40px;
+    font-family:'Times New Roman', Times, serif;
+    font-size: 0.9em;
+    line-height: 20px;
+    float: left;
+}
+div#cont32-l span{
+    font-size: 1.4em;
+    font-weight: bold;
+}
+ol li{
+    margin: 8px 0;
+}
+div#cont32 table{
+    height: 320px;
+    width: 500px;
+    float: left;
+    border-spacing: 40px;
+}
+div.xt{
+    position: fixed;
+    top: 250px;
+    left: 0;
+}

@@ -1,0 +1,40 @@
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+div#b1{
+    background-color: beige;
+    margin: 0;
+}
+div#b1 div.inner{
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+}
+div#b1 div.inner div#b1-1{
+    height: 310px;
+}
+div#b1 div.inner div#b1-2{
+    width: 100%;
+    background-color: white;
+    height: 800px;
+}
+table {
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    border:  thin solid black;
+    border-collapse: collapse;
+    position: relative;
+    top: 60px;
+}
+table caption{
+    font-size: 1.5em;
+    font-weight: bold;
+}
+table td{
+    border: 1px solid black;
+    padding: 5px 2px;
+}
+.center{
+    text-align: center;
+}

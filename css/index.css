@@ -1,0 +1,123 @@
+body{
+    margin: 0;
+    font-size: 1em;
+}
+div.cont1{
+    background-color:#e8e0cd;
+    height: 160px;
+    width: auto;
+    margin: 0;
+}
+div.cont1 header{
+    height: 100px;
+    width: 100%;
+    text-align: center;
+}
+div.cont1 header div#p1{
+    height: 50px;
+    width: 100%;
+    margin-top: 20px;
+}
+div.cont1 header span{
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 28px;
+    position:relative;
+    top:30px
+}
+div.cont1 nav{
+    height: 60px;
+    width: 100%;
+    margin: 0;
+}
+div.d1{
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+}
+nav ul{
+    list-style: none;
+    margin: 0;
+}
+nav ul li{
+    display: inline;
+    padding: 5px 20px;
+    text-align: center;
+}
+nav ul li a{
+    text-decoration: none;
+    font-size: 18px;
+    color: white;
+}
+nav ul li a:hover {
+    color:salmon;
+}
+
+div#cont2{
+    background-color: beige;
+    margin: 0;
+}
+div#cont2 div.inner{
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+}
+div#cont2 div.inner div#cont2-1{
+    height: 360px;
+    width: 100%;
+    background-color: white;
+}
+div#cont2-1 div#p1-l{
+    margin-top: 50px;
+    margin-left: 220px;
+    float: left;
+}
+div#cont2-1 div#p1-r{
+    width: 400px;
+    height: 240px;
+    margin-top: 50px;
+    margin-left: 70px;
+    padding: 10px 50px;
+    float: left;
+    color: #808000;
+}
+div#cont2-1 div#p1-r p{
+    font-size: 1.5em;
+}
+div#cont2-1 div#p1-r ul{
+    list-style: none;
+    margin: 0%;
+}
+div#cont2-2{
+    padding: 10px 30px;
+    height: 60px;
+    background-color: white;
+
+}
+div#cont2-2 span{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.9em;
+    color: #808000;
+}
+div#cont2-2 span a{
+    text-decoration: none;
+    color: red;
+}
+div#cont2-2 span a:hover{
+    color: blue;
+}
+footer{
+    height: 45px;
+    background-color: #675c47;
+    color: #efe5d0;
+    border-top: 2px solid #b89a53;
+    font-size: 0.6em;
+    line-height: 20px;
+    text-align: center;
+}
+footer span{
+   position: relative;
+   top: 10px;
+}
